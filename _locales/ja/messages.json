@@ -1,0 +1,137 @@
+{
+  "appName": {
+    "message": "GIFを記録する"
+  },
+  "appDesc": {
+    "message": "ページ上の選択した領域をgifアニメーションとして記録します"
+  },
+  "mouseTip": {
+    "message": "マウスを動かしてクリックします#またはドラッグアンドドロップします#エリアを選択するには"
+  },
+  "start": {
+    "message": "開始"
+  },
+  "finish": {
+    "message": "終える"
+  },
+  "capturePng": {
+    "message": "PNGをキャプチャする"
+  },
+  "cancel": {
+    "message": "取り消す"
+  },
+
+  "ratings": {
+    "message": "評価 / フィードバック / サポート",
+    "description": "打分回馈支持的链接label"
+  },
+  "options": {
+    "message": "オプション",
+    "description": "选项链接label"
+  },
+  "fps": {
+    "message": "FPS",
+    "description": "编辑页面‘帧率’"
+  },
+  "quality": {
+    "message": "品質",
+    "descriptiong": "编辑页‘质量’"
+  },
+  "width": {
+    "message": "幅",
+    "description": "编辑页面‘宽度’"
+  },
+  "height": {
+    "message": "高さ",
+    "description": "编辑页面‘高度’"
+  },
+  "generate": {
+    "message": "生む",
+    "description": "编辑页面‘生成’按钮label"
+  },
+  "save": {
+    "message": "保存する",
+    "description": "编辑页面‘保存’按钮label"
+  },
+
+  "onPage": {
+    "message": "",
+    "description": "options页面 'on page'"
+  },
+  "overLaunch": {
+    "message": " ページこの拡張機能を起動するためのホットキーを上書きできます",
+    "description": "options页面 设置启动插件快捷键的描述"
+  },
+  "basic": {
+    "message": "基本",
+    "description": "options页面基本设置的标题"
+  },
+  "maxFrameRate": {
+    "message": "最大フレームレート",
+    "description": "options页面 最大帧率"
+  },
+  "maxFrameRateDesc": {
+    "message": "記録中に最大FPSを指定します",
+    "description": ""
+  },
+  "defaultFPS": {
+    "message": "デフォルトのFPS",
+    "description": ""
+  },
+  "defaultFPSDesc": {
+    "message": "GIF画像を自動生成するときのFPS値としてこれを使用します。これは最大フレームレート以下である必要があります",
+    "description": ""
+  },
+  "defaultQuality": {
+    "message": "デフォルトの品質",
+    "description": ""
+  },
+  "defaultQualityDesc": {
+    "message": "GIF画像を自動生成するときの品質値としてこれを使用します",
+    "description": ""
+  },
+  "disableTracking": {
+    "message": "アナリティクストラッキングを無効にする",
+    "description": ""
+  },
+  "usageDataDesc": {
+    "message": "この拡張機能を最適化するために匿名の使用状況データを使用します。使用状況データを収集したくない場合は、このスイッチをオンにしてください",
+    "description": ""
+  },
+  "hotkeys": {
+    "message": "ホットキー",
+    "description": ""
+  },
+  "startOrFinish": {
+    "message": "記録の開始/終了",
+    "description": ""
+  },
+  "startOrFinishDesc": {
+    "message": "gif画像を作成するためのコンテンツの記録を開始または終了します",
+    "description": ""
+  },
+  "cancelDesc": {
+    "message": "キャンセルして終了します",
+    "description": ""
+  },
+  "capturePngImg": {
+    "message": "PNG画像をキャプチャする",
+    "description": "options页面截png快捷键label"
+  },
+  "capturePngImgDesc": {
+    "message": "選択したコンテンツをPNG画像としてキャプチャ",
+    "description": "options页面截png快捷键说明"
+  },
+  "launch": {
+    "message": "打ち上げ",
+    "description": "启动快捷键label"
+  },
+  "defaultSearchEngine": {
+    "message": "デフォルトの検索エンジン",
+    "description": "设置默认搜索引擎说明的label"
+  },
+  "defaultSearchEngineDesc": {
+    "message": "この拡張機能は、デフォルトの検索設定を引き継ぎ、場所に応じてBingまたはGoogleに変更します。",
+    "description": "设置默认搜索引擎的说明"
+  }
+}

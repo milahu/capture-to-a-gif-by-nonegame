@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="favicon.ico" />
+    <title>Donate</title>
+    <script src="libs/google-analytics.js"></script>
+    <style>
+      p,
+      div {
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        position: relative;
+        height: 50px;
+        line-height: 50px;
+        font-size: 24px;
+        padding: 0 15px;
+        box-sizing: border-box;
+      }
+
+      #logo {
+        display: inline-block;
+        width: 32px;
+        vertical-align: top;
+        margin: 9px 5px 0 0;
+      }
+
+      #main {
+        position: relative;
+        width: 800px;
+        margin: 10px auto;
+        padding: 10px;
+        border-radius: 4px;
+      }
+
+      .describe {
+        position: relative;
+        font-size: 16px;
+        padding: 16px;
+        line-height: 24px;
+      }
+
+      .shadowbox {
+        box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.1), 0 0 0 rgba(16, 22, 26, 0),
+          0 1px 1px rgba(16, 22, 26, 0.2);
+      }
+
+      #donating-ways {
+        position: relative;
+        margin: 20px;
+        padding: auto 20px;
+      }
+
+      .pay-wrapper {
+        position: relative;
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+        padding: 20px 40px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+      }
+
+      .pay-vendors {
+        flex: 0 0 auto;
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      .pay-vendors img {
+        vertical-align: middle;
+      }
+
+      .pay-action {
+        flex: 1 1 auto;
+        position: relative;
+        text-align: center;
+        position: relative;
+      }
+
+      .pay-action .pay-action-desc {
+        position: absolute;
+        bottom: 20px;
+        right: 50px;
+        color: rgba(0, 0, 0, 0.4);
+      }
+
+      #paypal .pay-action span {
+        font-size: 24px;
+        padding-right: 20px;
+        background: url(/images/external-link-outlin.svg) right top no-repeat;
+        background-size: 18px;
+      }
+
+      #payoneer .pay-action {
+        position: relative;
+        overflow: hidden;
+      }
+
+      #payoneer-email {
+        position: absolute;
+        left: -9999999px;
+      }
+
+      #payoneer .pay-action > span.account {
+        font-size: 24px;
+      }
+      #payoneer .pay-action > span.copied-msg {
+        display: none;
+        position: absolute;
+        top: 50%;
+        margin-left: 1rem;
+        transform: translate(0, -50%);
+        color: lightslategray;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="shadowbox">
+      <img id="logo" src="/images/Capture-Gif-48x48.png" alt="" />
+      <span>Donate</span>
+    </header>
+    <div id="main" class="shadowbox">
+      <div class="describe">
+        <p>
+          I am an independent software developer and the creator of
+          <i><b>Capture to a Gif</b></i
+          >, I hope this extension brings you some convenience or help.<br />Thank
+          you for your support, you can donate via one of the following ways
+        </p>
+      </div>
+      <div id="donating-ways">
+        <div id="payoneer" class="pay-wrapper">
+          <a class="pay-vendors" href="https://payoneer.com/"
+            ><img src="/images/payoneer.png" /> </a
+          ><span class="pay-action"
+            ><span class="account">guofei_126@126.com</span>
+            <button type="button" id="copy-payoneer-account">copy</button>
+            <span class="copied-msg">copied</span> </span
+          ><input value="guofei_126@126.com" id="payoneer-email" />
+        </div>
+        <div id="paypal" class="pay-wrapper">
+          <a
+            class="pay-vendors"
+            href="https://www.paypal.me/nonegame"
+            target="_blank"
+            title="go to paypal"
+            ><img src="/images/paypal-logo-129x32.svg" /> </a
+          ><a
+            class="pay-action"
+            href="https://www.paypal.me/nonegame"
+            target="_blank"
+            ><span>go to PayPal</span></a
+          >
+        </div>
+        <div id="alipay" class="pay-wrapper">
+          <span class="pay-vendors"
+            ><img src="/images/alipay-logo-709.png" width="138" /> </span
+          ><span class="pay-action"
+            ><img src="/images/alipay-code-170.png" />
+            <span class="pay-action-desc">Scan with Alipay</span></span
+          >
+        </div>
+        <div id="wechat" class="pay-wrapper">
+          <span class="pay-vendors"
+            ><img src="/images/wechat-logo-260.png" width="138" /> </span
+          ><span class="pay-action"
+            ><img src="/images/wechat-zancode-180.png" alt="" />
+            <span class="pay-action-desc">Scan with WeChat</span></span
+          >
+        </div>
+      </div>
+    </div>
+    <script src="js/donate.js"></script>
+  </body>
+</html>

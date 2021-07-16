@@ -1,0 +1,147 @@
+{
+  "appName": {
+    "message": "Capture to a Gif",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Record content of pages to an animated gif picture from browser",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "mouseTip": {
+    "message": "Move the mouse and Click#or Drag#to select area"
+  },
+  "start": {
+    "message": "Start"
+  },
+  "finish": {
+    "message": "Finish"
+  },
+  "capturePng": {
+    "message": "Capture PNG"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+
+  "ratings": {
+    "message": "rating / feedback / support",
+    "description": "打分回馈支持的链接label"
+  },
+  "options": {
+    "message": "Options",
+    "description": "选项链接label"
+  },
+  "fps": {
+    "message": "FPS",
+    "description": "编辑页面‘帧率’"
+  },
+  "quality": {
+    "message": "QUALITY",
+    "descriptiong": "编辑页‘质量’"
+  },
+  "width": {
+    "message": "WIDTH",
+    "description": "编辑页面‘宽度’"
+  },
+  "height": {
+    "message": "HEIGHT",
+    "description": "编辑页面‘高度’"
+  },
+  "generate": {
+    "message": "GENERATE",
+    "description": "编辑页面‘生成’按钮label"
+  },
+  "save": {
+    "message": "SAVE",
+    "description": "编辑页面‘保存’按钮label"
+  },
+
+  "onPage": {
+    "message": "on page ",
+    "description": "options页面 'on page'"
+  },
+  "overLaunch": {
+    "message": " You can overwrite the hotkeys for launching this extension",
+    "description": "options页面 设置启动插件快捷键的描述"
+  },
+  "basic": {
+    "message": "Basic",
+    "description": "options页面基本设置的标题"
+  },
+  "maxFrameRate": {
+    "message": "Max Frame Rate",
+    "description": "options页面 最大帧率"
+  },
+  "maxFrameRateDesc": {
+    "message": "Specify the max FPS while recording",
+    "description": ""
+  },
+  "defaultFPS": {
+    "message": "Default FPS",
+    "description": ""
+  },
+  "defaultFPSDesc": {
+    "message": "Use this as the FPS value when automatically generating GIF images. This should be less than or equal to the Max Frame Rate",
+    "description": ""
+  },
+  "defaultQuality": {
+    "message": "Default Quality",
+    "description": ""
+  },
+  "defaultQualityDesc": {
+    "message": "Use this as the QUALITY value when automatically generating GIF images",
+    "description": ""
+  },
+  "disableTracking": {
+    "message": "Disable Analytics Tracking",
+    "description": ""
+  },
+  "usageDataDesc": {
+    "message": "We will use anonymous usage data to optimize Capture to a Gif, If you don't want us to collect usage data, please turn this switch on",
+    "description": ""
+  },
+  "hotkeys": {
+    "message": "Hot Keys",
+    "description": ""
+  },
+  "startOrFinish": {
+    "message": "Start/Finish Recording",
+    "description": ""
+  },
+  "startOrFinishDesc": {
+    "message": "Start or finish recording content for creating gif image",
+    "description": ""
+  },
+  "cancelDesc": {
+    "message": "Cancel and exit",
+    "description": ""
+  },
+  "capturePngImg": {
+    "message": "Capture PNG Image",
+    "description": "options页面截png快捷键label"
+  },
+  "capturePngImgDesc": {
+    "message": "Capture selected content as a PNG image",
+    "description": "options页面截png快捷键说明"
+  },
+  "launch": {
+    "message": "Launch",
+    "description": "启动快捷键label"
+  },
+  "defaultSearchEngine": {
+    "message": "Default Search Engine",
+    "description": "设置默认搜索引擎说明的label"
+  },
+  "defaultSearchEngineDesc": {
+    "message": "This extension takes over your default search settings and changes it to Bing or Google that depends on your location.",
+    "description": "设置默认搜索引擎的说明"
+  },
+  "donate": {
+    "message": "Donate",
+    "description": "捐款标题"
+  },
+  "donateDesc": {
+    "message": "Help developers optimize this extension through donations",
+    "description": ""
+  }
+}

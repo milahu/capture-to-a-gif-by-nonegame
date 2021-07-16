@@ -1,0 +1,40 @@
+.logo-img {
+  width: 32px;
+  margin-right: 10px;
+}
+.options-body {
+  margin: 10px auto;
+  position: relative;
+  max-width: 600px;
+}
+.justify-label label {
+  min-width: 120px;
+}
+.justify-label select {
+  min-width: 120px;
+}
+hr {
+  margin: 20px 0;
+  border: none;
+  border-bottom: 1px solid rgba(16, 22, 26, 0.15);
+}
+.option-group-title {
+  background-color: #F5F8FA;
+  padding: 0.5rem;
+  margin: 0 0 0.8rem;
+  font-size: 1rem;
+}
+ul.hotkey-list {
+  list-style: none;
+  margin: 0;
+  padding: 0.4rem 0.5rem;
+}
+ul.hotkey-list li {
+  margin: 0;
+  padding: 0;
+}
+ul.hotkey-list li label {
+  width: 4.3em;
+  text-align: right;
+}
+

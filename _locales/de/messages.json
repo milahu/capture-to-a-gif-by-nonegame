@@ -1,0 +1,139 @@
+{
+  "appName": {
+    "message": "Capture zu einem GIF",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Zeichnen Sie den Inhalt von Seiten in einem animierten GIF-Bild vom Browser auf",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "mouseTip": {
+    "message": "Bewegen Sie die Maus und klicken Sie auf#oder ziehen Sie#um den Bereich auszuwählen"
+  },
+  "start": {
+    "message": "Start"
+  },
+  "finish": {
+    "message": "Fertig"
+  },
+  "capturePng": {
+    "message": "PNG erfassen"
+  },
+  "cancel": {
+    "message": "Stornieren"
+  },
+
+  "ratings": {
+    "message": "Bewertung / Feedback / Unterstützung",
+    "description": "打分回馈支持的链接label"
+  },
+  "options": {
+    "message": "Optionen",
+    "description": "选项链接label"
+  },
+  "fps": {
+    "message": "FPS",
+    "description": "编辑页面‘帧率’"
+  },
+  "quality": {
+    "message": "QUALITÄT",
+    "descriptiong": "编辑页‘质量’"
+  },
+  "width": {
+    "message": "BREITE",
+    "description": "编辑页面‘宽度’"
+  },
+  "height": {
+    "message": "HÖHE",
+    "description": "编辑页面‘高度’"
+  },
+  "generate": {
+    "message": "GENERIEREN",
+    "description": "编辑页面‘生成’按钮label"
+  },
+  "save": {
+    "message": "SPAREN",
+    "description": "编辑页面‘保存’按钮label"
+  },
+
+  "onPage": {
+    "message": "Auf Seite ",
+    "description": "options页面 'on page'"
+  },
+  "overLaunch": {
+    "message": " Sie können die Hotkeys zum Starten dieser Erweiterung überschreiben",
+    "description": "options页面 设置启动插件快捷键的描述"
+  },
+  "basic": {
+    "message": "Basic",
+    "description": "options页面基本设置的标题"
+  },
+  "maxFrameRate": {
+    "message": "Maximale Bildrate",
+    "description": "options页面 最大帧率"
+  },
+  "maxFrameRateDesc": {
+    "message": "Geben Sie die maximale FPS während der Aufnahme an",
+    "description": ""
+  },
+  "defaultFPS": {
+    "message": "Standard-FPS",
+    "description": ""
+  },
+  "defaultFPSDesc": {
+    "message": "Verwenden Sie dies als FPS-Wert, wenn Sie automatisch GIF-Bilder generieren. Dies sollte kleiner oder gleich der maximalen Bildrate sein",
+    "description": ""
+  },
+  "defaultQuality": {
+    "message": "Standardqualität",
+    "description": ""
+  },
+  "defaultQualityDesc": {
+    "message": "Verwenden Sie diesen Wert als QUALITÄT, wenn Sie automatisch GIF-Bilder generieren",
+    "description": ""
+  },
+  "disableTracking": {
+    "message": "Deaktivieren Sie das Analytics-Tracking",
+    "description": ""
+  },
+  "usageDataDesc": {
+    "message": "Wir verwenden anonyme Nutzungsdaten, um die Erfassung in einem GIF zu optimieren. Wenn Sie nicht möchten, dass wir Nutzungsdaten erfassen, aktivieren Sie diesen Schalter",
+    "description": ""
+  },
+  "hotkeys": {
+    "message": "Hotkeys",
+    "description": ""
+  },
+  "startOrFinish": {
+    "message": "Aufnahme starten / beenden",
+    "description": ""
+  },
+  "startOrFinishDesc": {
+    "message": "Starten oder beenden Sie die Aufzeichnung von Inhalten zum Erstellen eines GIF-Bildes",
+    "description": ""
+  },
+  "cancelDesc": {
+    "message": "Abbrechen und beenden",
+    "description": ""
+  },
+  "capturePngImg": {
+    "message": "PNG-Bild aufnehmen",
+    "description": "options页面截png快捷键label"
+  },
+  "capturePngImgDesc": {
+    "message": "Erfassen Sie ausgewählte Inhalte als PNG-Bild",
+    "description": "options页面截png快捷键说明"
+  },
+  "launch": {
+    "message": "Starten",
+    "description": "启动快捷键label"
+  },
+  "defaultSearchEngine": {
+    "message": "Standard suchmaschine",
+    "description": "设置默认搜索引擎说明的label"
+  },
+  "defaultSearchEngineDesc": {
+    "message": "Diese Erweiterung übernimmt Ihre Standard Sucheinstellungen und ändert sie in Bing oder Google, abhängig von Ihrem Standort.",
+    "description": "设置默认搜索引擎的说明"
+  }
+}
